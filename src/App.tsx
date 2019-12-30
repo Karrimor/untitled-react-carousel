@@ -24,7 +24,8 @@ class App extends Component {
         <div style={{ padding: '6rem 2rem' }}>
           <h1>This is the carousel with Hooks</h1>
 
-          <CarouselHooks itemsPerPage={3}>
+          <CarouselHooks carouselWidth={40} itemsPerPage={3}>
+            {/* <CarouselHooks itemsPerPage={3}> */}
             <TestChild color="green" />
             <TestChild color="pink" />
             <TestChild color="orange" />
